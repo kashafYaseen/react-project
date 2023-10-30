@@ -1,0 +1,302 @@
+.caret-icon-color {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+}
+
+.arrow-icon-color {
+  color: #696974;
+}
+
+.nested-arrow1-icon-color {
+  color: #B9006E;
+}
+
+.nested-arrow2-icon-color {
+  color: #6D69D3;
+}
+
+.card {
+  border: none !important;
+}
+
+.circle-icon-color {
+  width: 17px;
+  height: 17px;
+  padding-left: 1rem;
+  color: #33B1F8;
+  opacity: 1;
+}
+
+.task-name {
+  width: 150px;
+  height: 25px;
+  padding-left: 1.2rem;
+  font: var(--unnamed-font-style-normal) normal medium 14px/var(--unnamed-line-spacing-24) Roboto;
+  text-align: left;
+  font-weight: bold;
+  font: normal normal medium 14px/24px Roboto;
+  letter-spacing: 0.11px;
+  color: #000000DE;
+  opacity: 1;
+}
+
+.task-shift {
+  width: 370px;
+  height: 18px;
+  padding-left: 5.5rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-13)/var(--unnamed-line-spacing-20) Roboto;
+  text-align: left;
+  font: normal normal medium 13px/20px Roboto;
+  letter-spacing: 0.23px;
+  color: #00000099;
+  opacity: 1;
+}
+
+.plus-icon-color-dropdown,
+.plus-icon-color {
+  width: 15px;
+  height: 15px;
+  opacity: 1;
+}
+
+.plus-icon-color {
+  color: #B6BECC;
+}
+
+.plus-icon-color-dropdown {
+  color: #B9036E;
+}
+
+
+.shift-details-body,
+.shift-details {
+  width: 250px;
+  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-16)/var(--unnamed-line-spacing-19) Montserrat;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal medium 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #171725;
+  opacity: 1;
+}
+
+.shift-details {
+  height: 19px;
+  font-weight: bold;
+}
+
+.shift-details-body {
+  height: 19px;
+  font-weight: 550;
+}
+
+.delivery-shift-details-task,
+.shift-details-tasks-progress,
+.shift-details-tasks {
+  width: 450px;
+  height: 11px;
+  font: var(--unnamed-font-style-normal) normal medium 12px/var(--unnamed-line-spacing-18) Poppins;
+  color: var(--unnamed-color-707070);
+  text-align: left;
+  font: normal normal medium 12px/18px Poppins;
+  letter-spacing: 0.09px;
+  color: #707070;
+  opacity: 1;
+}
+
+.shift-details-tasks-progress {
+  padding-left: 11rem;
+}
+
+.delivery-shift-details-task {
+  padding-left: 114px;
+}
+
+
+.task-details-destination {
+  padding-left: 25px;
+  color: #707070;
+}
+
+.nested-task-details-destination {
+  font: normal normal medium 14px/24px Roboto;
+  padding-left: 25px;
+  color: #3C3B3BDE;
+  width: 200px;
+}
+
+.task-assign-destination-details,
+.destination-details {
+  color: #707070;
+}
+
+.destination-details {
+  padding-left: 5.9rem;
+}
+
+
+.task-assign-destination-details {
+  padding-left: 5.9rem;
+  font: normal normal medium 5px/10px Roboto;
+}
+
+
+.destination-time {
+  color: #707070;
+  padding-left: 12rem;
+}
+
+.nested-task-assign-destination-time,
+.nested-destination-date-time,
+.nested-destination-time {
+  color: #707070;
+}
+
+.nested-destination-time {
+  padding-left: 4rem;
+}
+
+.nested-task-assign-destination-time {
+  padding-left: 2.7rem;
+}
+
+.nested-destination-date-time {
+  padding-left: 5.2rem;
+}
+
+.edit-button,
+.close-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #B6BECC;
+  cursor: pointer;
+}
+
+.edit-button {
+  padding-left: 13rem;
+}
+
+.input-box {
+  width: 77px;
+  height: 30px;
+  border: 1px solid #D5D5DC;
+  border-radius: 3px;
+  opacity: 1;
+  font: normal normal medium 11px/17px Poppins;
+  letter-spacing: 0.08px;
+  color: #707070;
+  text-align: left;
+}
+
+.shift-details-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-done-button,
+.done-button {
+  width: 95px;
+  height: 35px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  color: white;
+}
+
+.done-button {
+  margin-left: 25rem;
+}
+
+.task-done-button {
+  margin-left: 20rem;
+}
+
+.cancel-button {
+  width: 95px;
+  height: 35px;
+  background: #ffffff;
+  border: 1.5px solid #E2E2EA;
+  border-radius: 6px;
+  opacity: 1;
+  color: #707070;
+}
+
+.custom-progress-bar {
+  width: 75% !important;
+  height: 5px !important;
+  margin-left: 5.9rem;
+}
+
+.nested-card-color {
+  background-color: #f7f9fb;
+  color: #f7f9fb;
+  border: 2px solid transparent;
+}
+
+.nested-card-color:hover {
+  border-color: rgba(109, 105, 212, 0.29);
+}
+
+.form-input-height {
+  height: 3rem;
+}
+
+.card-color {
+  height: 2rem;
+  padding-top: 3px;
+  background-color: #F2F2F4;
+}
+
+.assign-task-nested-cards {
+  font-weight: bold;
+  padding-left: 15rem;
+}
+
+.assign-task-nested-time-card {
+  padding-left: 0.2rem;
+  font: normal normal medium 14px/24px Roboto;
+  letter-spacing: 0.11px;
+  color: #000000DE;
+}
+
+.arrow-down-icon,
+.user-icon-color {
+  padding-left: 0.2rem;
+  width: 15px;
+  height: 19px;
+}
+
+.user-icon-color {
+  color: #B9006E;
+}
+
+.arrow-down-icon {
+  color: #6D69D3;
+}
+
+.hungerhub-text-count,
+.hungerhub-text {
+  width: 90px;
+  height: 9px;
+  color: #4A4A4A99;
+  font: normal normal medium 12px/20px Roboto;
+}
+
+.hungerhub-text {
+  padding-left: 3px;
+}
+
+.hungerhub-text-count {
+  padding-left: 12.6rem;
+}
+
+.custom-pipe {
+  color: #DFE3EB;
+  padding-left: 3px;
+  padding-right: 1px;
+}
+
+

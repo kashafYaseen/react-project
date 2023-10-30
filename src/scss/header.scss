@@ -1,0 +1,130 @@
+.custom-button{
+  width: 95px;
+  height: 34px;
+  top: 25px;
+  color: #FAFAFB;;
+  background: #6C6BCC 0% 0% no-repeat padding-box;
+  border-radius: 17px;
+  border-style: none;
+  opacity: 1;
+}
+
+.new-icon{
+  margin-right: 0.5rem;
+}
+
+.gear-icon-button{
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  width: 30px;
+  height: 34px;
+  top: 25px;
+}
+
+.img-dropdown-button{
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  width: 50px;
+  height: 44px;
+  top: 20px;
+}
+
+.bell-icon-button{
+  background: transparent 0% 0% no-repeat padding-box;
+  border: none;
+  width: 30px;
+  height: 39px;
+  top: 25px;
+}
+
+.rounded-full-img {
+  margin-left: 1rem;
+  position: relative;
+  width: 43px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icon-color{
+  border-color: #92929D;
+  color: #92929D;
+  width: 20.42px;
+  height: 20.42px;
+}
+
+.logo{
+  width: 130px;
+  height: 40px;
+  top: 25px;
+}
+
+.text-height{
+  margin-left: 0.5rem;
+  font-size: small;
+}
+
+.sr-admin-text {
+  color: #92929D;
+}
+
+.tab-switcher {
+  display: flex;
+  cursor: pointer;
+}
+
+.active-link {
+  width: 41px;
+  height: 19px;
+  font: normal normal medium 14px/19px Roboto;
+  font-weight: bold;
+  letter-spacing: 0.56px;
+  color: #6D69D3;
+  text-transform: uppercase;
+  opacity: 1;
+  position: relative;
+}
+
+.active-link:hover{
+  color: #393686;
+}
+
+.active-link::after {
+  content: '';
+  position: absolute;
+  bottom: -33px;
+  left: -2px;
+  width: var(--border-width, 48px);
+  height: 4px;
+  background: #393686;
+  border-radius: 100px 100px 0px 0px;
+}
+
+.non-active-link{
+  width: 45px;
+  height: 19px;
+  --bs-navbar-nav-link-padding-x: 2.5rem;
+  font: var(--unnamed-font-style-normal) normal medium 14px/var(--unnamed-line-spacing-19) Roboto;
+  text-align: left;
+  font: normal normal medium 14px/19px Roboto;
+  letter-spacing: 0.56px;
+  color: #171725;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.notification-container {
+  position: absolute;
+  display: inline-block;
+}
+
+.notification-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #FC5A5A;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: flex;
+}
+
